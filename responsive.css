@@ -1,0 +1,31 @@
+/* Untuk Tabel */
+
+/* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+/* Tambahkan CSS untuk lesson */
+.lesson{
+    width: 50%;
+    margin-bottom: 50px;
+}
+}
+
+/* Untuk Smarthphone */
+@media (max-width: 670px) {
+    .lesson{
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+    /* Gantikan width btn ke 100% */
+    .btn {
+        width: 100%;
+    }
+
+    /* Tambahkan CSS untuk top-wrapper */
+    .top-wrapper {
+        text-align: left;
+        padding-top: 130px;
+    }
+   
+}
